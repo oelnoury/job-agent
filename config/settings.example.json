@@ -1,0 +1,22 @@
+{
+  "lanes": [
+    { "id": 1, "name": "Chief of Staff", "cv": "Chief of Staff", "titles": ["Chief of Staff", "Business Operations Manager", "Head of Operations"] },
+    { "id": 2, "name": "Internal platforms PM", "cv": "Product", "titles": ["Product Manager, Internal Tools", "Business Systems Product Manager"] },
+    { "id": 3, "name": "AI enablement", "cv": "AI Operations", "titles": ["AI Enablement Manager", "AI Operations Lead", "Automation Lead"] },
+    { "id": 4, "name": "Program management", "cv": "Program", "titles": ["Technical Program Manager", "Implementation Manager"] },
+    { "id": 5, "name": "Other", "cv": "General", "titles": [] }
+  ],
+  "homeCountry": "Example Country",
+  "payFloor": { "amount": 4000, "currency": "USD", "per": "month" },
+  "minFit": 60,
+  "dailyCap": 10,
+  "boostKeywords": ["automation", "operating rhythm", "process design", "AI"],
+  "excludeKeywords": ["security clearance", "must relocate"],
+  "exclusions": ["Current Employer Ltd", "Former Employer Inc"],
+  "boards": [
+    { "name": "LinkedIn", "enabled": true },
+    { "name": "Indeed", "enabled": true },
+    { "name": "We Work Remotely", "enabled": true },
+    { "name": "Himalayas", "enabled": false }
+  ]
+}

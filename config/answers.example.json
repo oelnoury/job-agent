@@ -1,0 +1,15 @@
+{
+  "rules": [
+    "Answer from this bank first, then the CV source file. Never invent a fact.",
+    "Every factual claim must trace to a line in the CV source, worded no broader than the source.",
+    "Salary, notice period, start date and work authorisation come only from approved items below.",
+    "New questions answered from the CV source are added here so the next run reuses them."
+  ],
+  "items": [
+    { "q": "Are you authorised to work in the country of this role?", "a": "I work remotely as a contractor from Example Country.", "approved": true },
+    { "q": "Expected salary", "a": "USD 5,000 per month, open to discussion.", "approved": true },
+    { "q": "Notice period", "a": "One month.", "approved": true },
+    { "q": "Can you work across time zones?", "a": "Yes.", "approved": true },
+    { "q": "Why this role?", "a": "NEEDS YOUR ANSWER", "approved": false }
+  ]
+}
